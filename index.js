@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-    user: "bme",
+    user: "", // <-- Add your MySQL username
     host: 'localhost',
     password: '',
     database: "PasswordVault",
